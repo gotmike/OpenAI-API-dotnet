@@ -41,7 +41,7 @@ namespace OpenAI_API
 		/// </summary>
 		/// <param name="name">The id/<see cref="EngineName"/> to use.
 		///						If the <paramref name="name"/> contains a colon (as is the case in the API's <see cref="CompletionResult.Model"/> response),
-		///						the part before the colon is treated as the id/<see cref="EngineName"/> and the following portion is considered the<see cref="ModelRevision"/>
+		///						the part before the colon is treated as the id/<see cref="EngineName"/> and the following portion is considered the <see cref="ModelRevision"/>
 		///	</param>
 		public Engine(string name)
 		{
